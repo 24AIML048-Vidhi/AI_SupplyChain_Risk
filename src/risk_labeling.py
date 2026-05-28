@@ -103,7 +103,7 @@ if __name__ == "__main__":
 
     # Load dataset
     df = pd.read_csv(
-        'data/raw_data/dynamic_supply_chain_logistics_dataset.csv'
+        'data/processed_data/cleaned_supply_chain.csv'
     )
 
     # Generate labels
